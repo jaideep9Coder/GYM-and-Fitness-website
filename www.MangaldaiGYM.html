@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS</title>
+
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(imgi/bg2.jpg);
+        height: 100px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+
+        font-size: 15px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 31px;
+        font-size: 15px;
+    }
+
+    .left img {
+        width: 60px;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+
+        margin: 22px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        display: 34px;
+        top: 20px;
+
+    }
+
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 27px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(185, 53, 211);
+        cursor: pointer;
+    }
+
+    .btn {
+        margin: 1px 8px;
+        color: white;
+        background-color: black;
+        padding: 1px 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        border: 1px solid rgb(104, 110, 90);
+
+    }
+
+    .btn:hover {
+        background-color: rgb(51, 66, 66);
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 69px 84px;
+        padding: 52px;
+        width: 33%;
+        display: block;
+        border-radius: 37px;
+        color: antiquewhite;
+    }
+
+    .container h1 {
+        font-size: 26px;
+        font-family: cursive;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 298px;
+        margin: 5px auto;
+        border: 1px solid gray;
+        padding: 1px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    .container button {
+        display: block;
+        width: 38%;
+        margin: 25px auto;
+        font-family: cursive;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="imgi/bg.jpg" alt="">
+            <div>Jyotir Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <buuton class="btn">Call us Now</buuton>
+            <buuton class="btn">Email us</buuton>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Now Mangaldai Best GYM</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Locality">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Contact">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Email">
+                        </div>
+                        <button class="btn">Submit</button>
+
+                        <div id="blank-membership-2" class="unstyle-list margin-small-top padding-medium"
+                            style="display: block;">
+                            <div class="panel-group" id="membership">
+                                <div class="panel panel-default padding-small margin-small-top">
+                                    <div id="annually" class="panel-collapse collapsing" aria-expanded="true"
+                                        style="height: auto;">
+                                        <div class="panel-body">
+                                            <div class="accordion_container">
+                                                <div class="accordion_head">Membership<span class="plusminus">+</span>
+                                                </div>
+                                                <div class="accordion_body ft" style="display: block;">
+                                                    <form class="ft" id="w1_187888" method="post"><input type="hidden"
+                                                            name="fitnesstype" value="gym">
+                                                        <input type="hidden" name="gym" value="49">
+                                                        <input type="hidden" name="guest_id" class="guest_id"
+                                                            id="guest_id" value="">
+                                                        <input type="hidden" name="plan" class="guest_id" id="plan_id"
+                                                            value="">
+                                                        <input type="hidden" name="gym12" value="49">
+                                                        <input type="hidden" value="gyms" name="offer_valid_for">
+                                                        <input type="hidden" value="gyms" name="offer_valid_for">
+
+
+                                                        <span class="mui-col-md-4 nopadding">Annual Membership
+                                                        </span>
+                                                        <span>₹30,000.00</span>
+                                                        <small></small>
+                                                        <button style="width:100px" type="submit"
+                                                            class="pull-right medium text-center buy_membership_offers commman"
+                                                            name="buynow">Buy</button>
+
+
+
+                                                    </form>
+                                                </div>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="blank-membership-2" class="unstyle-list margin-small-top padding-medium"
+                            style="display: block;">
+                            <div class="panel-group" id="membership">
+                                <div class="panel panel-default padding-small margin-small-top">
+
+                                    <div id="annually" class="panel-collapse collapsing" aria-expanded="true"
+                                        style="height: auto;">
+                                        <div class="panel-body">
+                                            <div class="accordion_container">
+                                                <div class="accordion_head">Membership<span class="plusminus">+</span>
+                                                </div>
+                                                <div class="accordion_body ft" style="display: block;">
+                                                    <form class="ft" id="w1_187888" method="post"><input type="hidden"
+                                                            name="fitnesstype" value="gym">
+                                                        <input type="hidden" name="gym" value="49">
+                                                        <input type="hidden" name="guest_id" class="guest_id"
+                                                            id="guest_id" value="">
+                                                        <input type="hidden" name="plan" class="guest_id" id="plan_id"
+                                                            value="">
+                                                        <input type="hidden" name="gym12" value="49">
+                                                        <input type="hidden" value="gyms" name="offer_valid_for">
+                                                        <input type="hidden" value="gyms" name="offer_valid_for">
+
+
+                                                        <span class="mui-col-md-4 nopadding">Special Offer (Buy a
+                                                            membership Today)
+                                                        </span>
+                                                        <span>₹25,000.00</span>
+                                                        <small></small>
+                                                        <button style="width:100px" type="submit"
+                                                            class="pull-right medium text-center buy_membership_offers commman"
+                                                            name="buynow">Buy</button>
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
